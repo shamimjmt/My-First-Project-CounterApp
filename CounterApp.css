@@ -1,0 +1,95 @@
+
+    body{
+    background-color: rgb(235, 227, 227);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+
+
+}
+.class{
+    background: #ffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0, 0.05);
+    text-align: center;
+    width: 100%;
+    max-width: 350px;
+
+}
+.para{
+    border: 20px;
+    margin-top: 160px;
+    font-size: 35px;
+    color: rgb(124, 128, 116);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+
+
+}
+.calculate{
+    font-size: 80px;
+    font-weight: 700;
+
+    
+    margin: 10px 0;
+    border-radius: 5px;
+    transition: color 0.2s ease;
+
+
+
+}
+.control{
+    display: flex;
+    gap: 10px;
+    padding: 5%;
+    margin: 20px;
+
+}
+button{ 
+    flex: 1;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+
+}
+button:active{
+    transform: scale(0.98);
+
+}
+#button12{
+    background-color: aqua;
+}
+.button_in{ 
+    background-color: rgb(5, 143, 255);
+    color: white;
+
+}
+.button_in:hover{
+    background-color: rgb(158, 15, 214);
+}
+.button_de{
+    background-color: rgb(243, 243, 16);
+    color: rgb(59, 55, 55);
+}
+.button_de:hover{
+    background-color: rgb(98, 243, 1);
+}
+.button_re{
+    background-color: blue;
+    color: white;
+
+}
+.button_re:hover{
+    background-color: rgb(238, 5, 121);
+}
+    
